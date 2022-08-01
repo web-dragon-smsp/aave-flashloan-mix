@@ -13,7 +13,7 @@ def main():
     )  # add your keystore ID as an argument to this call
 
     flashloan = FlashloanV2.deploy(
-        config["networks"][network.show_active()]["aave_lending_pool_v2"],
+        "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
         {"from": acct},
     )
     return flashloan

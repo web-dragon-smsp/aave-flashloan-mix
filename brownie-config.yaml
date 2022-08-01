@@ -17,7 +17,7 @@ compiler:
 networks:
   default: mainnet-fork
   mainnet-fork:
-    aave_lending_pool_v2: "0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5"
+    aave_lending_pool_v2: "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9"
     weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
   kovan:
     aave_lending_pool_v2: "0x88757f2f99175387ab4c6a4b3067c77a695b0349"
@@ -26,5 +26,8 @@ networks:
     aave_lending_pool_v2: "0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5"
     weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
 wallets:
-  from_key: ${PRIVATE_KEY}
+  from_key: "0x06e8b1876c40b7d818b7afa0054fbc629d1cbdec5e2bb8b0fa4057c82361572d"
   from_mnemonic: ${MNEMONIC}
+
+settings:
+  gas_limit: "315820"
